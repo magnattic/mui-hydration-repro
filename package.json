@@ -4,13 +4,18 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "dev:noturbo": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@mui/icons-material": "7.1.0",
+    "@mui/material": "7.1.0",
+    "@mui/material-nextjs": "^7.1.0",
+    "next": "^15.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.2"
-  }
+    "react-dom": "^19.0.0"
+  },
+  "packageManager": "yarn@4.9.1"
 }
